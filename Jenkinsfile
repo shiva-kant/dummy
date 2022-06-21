@@ -7,14 +7,14 @@ agent any
             
             steps {
                 
-                echo 'Hello World'
+                echo 'Hello World B2'
             }
         }
         stage('WORLD') {
            
             steps {
                 
-                echo 'Hello Git Again'
+                echo 'Hello Git Again Another Branch'
             }
         }
     }
